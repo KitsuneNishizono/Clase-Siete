@@ -1,0 +1,32 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	min-height: 100%;
+}
+body{
+	background-image: url("../IMG/maxresdefault.jpg");
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-position: center;
+	color:white;
+}
+main{
+	width:100%;
+	height:100%;
+	background-image: url("../IMG/SMOOTH.png");
+	position: absolute;
+	transition: opacity 500ms ease;
+	/*Esto quita la validez de la background image de main y solo actua sobre la imagen anterior*/
+	opacity:0.4;
+	background: #cb60b3;
+    background: -webkit-linear-gradient(#cb60b3 0%, #a80077 1%, #a80077 1%, #a80077 18%, #c146a1 50%, #a80077 100%, #db36a4 100%, #a80077 100%);
+    background: -o-linear-gradient(#cb60b3 0%, #a80077 1%, #a80077 1%, #a80077 18%, #c146a1 50%, #a80077 100%, #db36a4 100%, #a80077 100%);
+    background: linear-gradient(#cb60b3 0%, #a80077 1%, #a80077 1%, #a80077 18%, #c146a1 50%, #a80077 100%, #db36a4 100%, #a80077 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#a80077',GradientType=0 );
+}
+main: hover{
+	opacity: 0.0;
+}
